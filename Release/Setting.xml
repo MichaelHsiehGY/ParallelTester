@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <IsEnableSN>True</IsEnableSN>
+  <ChannelList />
+  <IsAllowManualInput_SN>True</IsAllowManualInput_SN>
+  <CharacterCaseType_SN>Normal</CharacterCaseType_SN>
+</Config>

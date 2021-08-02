@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <ChannelName>Channel 0</ChannelName>
+  <IsMultiShare>True</IsMultiShare>
+  <Interface>Ethernet</Interface>
+  <GPIB_Card_Number>0</GPIB_Card_Number>
+  <GPIB_Address>0</GPIB_Address>
+  <IP_Address>169.254.22.201</IP_Address>
+  <MeasureItem>Scope</MeasureItem>
+  <MoudleID>1</MoudleID>
+  <AmplitudeTimeTest>
+    <Check>True</Check>
+    <AmplitudeTests>
+      <AmplitudeTest>
+        <Name>Extinction Ratio</Name>
+        <Result>N/A</Result>
+        <UpLimit>15</UpLimit>
+        <DownLimit>10</DownLimit>
+        <IsPass>False</IsPass>
+      </AmplitudeTest>
+      <AmplitudeTest>
+        <Name>Crossing</Name>
+        <Result>N/A</Result>
+        <UpLimit>N/A</UpLimit>
+        <DownLimit>N/A</DownLimit>
+        <IsPass>True</IsPass>
+      </AmplitudeTest>
+    </AmplitudeTests>
+    <TimeTests>
+      <TimeTest>
+        <Name>Eye Width</Name>
+        <Result>N/A</Result>
+        <UpLimit>N/A</UpLimit>
+        <DownLimit>N/A</DownLimit>
+        <IsPass>True</IsPass>
+      </TimeTest>
+      <TimeTest>
+        <Name>Fall Time</Name>
+        <Result>N/A</Result>
+        <UpLimit>N/A</UpLimit>
+        <DownLimit>N/A</DownLimit>
+        <IsPass>True</IsPass>
+      </TimeTest>
+      <TimeTest>
+        <Name>Rise Time</Name>
+        <Result>N/A</Result>
+        <UpLimit>N/A</UpLimit>
+        <DownLimit>N/A</DownLimit>
+        <IsPass>True</IsPass>
+      </TimeTest>
+    </TimeTests>
+  </AmplitudeTimeTest>
+  <MaskTest>
+    <Check>True</Check>
+    <Result>-100</Result>
+    <DownLimit>90</DownLimit>
+    <UpLimit>N/A</UpLimit>
+    <IsPass>False</IsPass>
+  </MaskTest>
+</Config>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <ChannelName>Channel 2</ChannelName>
+  <IsMultiShare>True</IsMultiShare>
+  <Interface>Ethernet</Interface>
+  <GPIB_Card_Number>0</GPIB_Card_Number>
+  <GPIB_Address>0</GPIB_Address>
+  <IP_Address>169.254.22.201</IP_Address>
+  <MeasureItem>BER</MeasureItem>
+  <MoudleID>2</MoudleID>
+  <AmplitudeTimeTest>
+    <Check>True</Check>
+    <AmplitudeTests />
+    <TimeTests />
+  </AmplitudeTimeTest>
+  <MaskTest>
+    <Check>True</Check>
+    <Result>N/A</Result>
+    <DownLimit>N/A</DownLimit>
+    <UpLimit>N/A</UpLimit>
+    <IsPass>False</IsPass>
+  </MaskTest>
+</Config>

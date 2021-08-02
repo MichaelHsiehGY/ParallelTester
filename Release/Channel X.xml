@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <ChannelName>Channel 0</ChannelName>
+  <Interface>Ethernet</Interface>
+  <GPIB_Card_Number>0</GPIB_Card_Number>
+  <GPIB_Address>0</GPIB_Address>
+  <IP_Address />
+  <MeasureItem>BER</MeasureItem>
+</Config>
